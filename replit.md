@@ -127,3 +127,15 @@ Content: No AI-generated content except layout and styling. Sample prototype not
 - Glassmorphic container with backdrop blur maintains visual consistency with rest of app
 - Graph auto-zooms to fit all nodes on load for optimal initial view
 - Responsive design with mobile-optimized layouts
+
+## Documentation
+
+### SETUP_GUIDE.md
+Comprehensive tutorial for running the Zettelkasten project locally outside of Replit:
+- Prerequisites: Node.js, Python (optional), Git
+- Step-by-step instructions for downloading project from Replit
+- Local development setup and running dev server
+- Note structure and customization guide
+- Building for production deployment
+- Troubleshooting common issues
+- Backup strategies for note data
