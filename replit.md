@@ -128,6 +128,28 @@ Content: No AI-generated content except layout and styling. Sample prototype not
 - Graph auto-zooms to fit all nodes on load for optimal initial view
 - Responsive design with mobile-optimized layouts
 
+## Repository Structure
+
+Clean, minimal structure for easy navigation:
+```
+client/                    # Frontend React app (all source code here)
+├── public/assets/        # Static assets (logo, images, backgrounds)
+├── src/
+│   ├── components/       # React components
+│   ├── data/            # Note storage (sampleNotes.js - edit this!)
+│   ├── App.jsx
+│   └── index.css
+attached_assets/          # User uploads from Replit
+replit.md                # Project documentation
+USAGE_GUIDE.md           # Usage instructions
+```
+
+Removed files/folders (cleanup Nov 10, 2025):
+- `public/` - Duplicate of client/public/assets
+- `server/` - Unused Flask backend
+- Root `package.json` - Duplicate dependencies
+- Python config files - Not needed for frontend-only project
+
 ## Sample Notes
 
 ### Local Setup Guide (Tutorial)

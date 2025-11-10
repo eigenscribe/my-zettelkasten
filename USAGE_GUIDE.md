@@ -1,8 +1,27 @@
 # Zettelkasten Math Journal - Usage Guide
 
+## Project Structure
+
+```
+zettelkasten-math-journal/
+├── client/                    # Your React application
+│   ├── public/assets/        # Images (logo, favicon, backgrounds)
+│   ├── src/
+│   │   ├── components/       # UI components (Sidebar, NoteDisplay, GraphView)
+│   │   ├── data/            # ⭐ YOUR NOTES ARE HERE!
+│   │   │   └── sampleNotes.js   # Edit this file to add/modify notes
+│   │   ├── App.jsx          # Main app component
+│   │   └── index.css        # All styling
+│   ├── package.json         # Frontend dependencies
+│   └── vite.config.js       # Build configuration
+├── attached_assets/          # User-uploaded files
+├── replit.md                # Project documentation & memory
+└── USAGE_GUIDE.md           # This file
+```
+
 ## Overview
 
-Your portfolio has been transformed into a **Zettelkasten-Dataxis hybrid website** for journaling your self-study progress in mathematics. This system combines the networked note-taking approach of Zettelkasten with PreTeXt-formatted mathematical content.
+Your portfolio has been transformed into a **Zettelkasten-Dataxis hybrid website** for journaling your self-study progress in mathematics. This system combines the networked note-taking approach of Zettelkasten with mathematical content rendered beautifully with MathJax.
 
 ## What You Have
 
