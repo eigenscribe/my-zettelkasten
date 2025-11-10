@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 
 function Sidebar({ notes, currentNoteId, onNoteSelect }) {
   const groupConfig = {
-    prototypes: { label: 'Prototypes', defaultOpen: true },
-    tutorials: { label: 'Tutorials', defaultOpen: true },
-    howto: { label: 'How-to Guides', defaultOpen: true },
-    explanations: { label: 'Explanations', defaultOpen: true },
-    reference: { label: 'Reference', defaultOpen: true }
+    prototypes: { label: 'Prototypes', defaultOpen: false },
+    tutorials: { label: 'Tutorials', defaultOpen: false },
+    howto: { label: 'How-to Guides', defaultOpen: false },
+    explanations: { label: 'Explanations', defaultOpen: false },
+    reference: { label: 'Reference', defaultOpen: false }
   };
 
   const initialOpenState = Object.keys(groupConfig).reduce((acc, key) => {
