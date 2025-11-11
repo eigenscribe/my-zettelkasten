@@ -197,24 +197,24 @@ body.pretext {
   margin-bottom: 1.5rem;
 }
 
-/* Section numbers (1.1, 1.2, etc.) */
-.ptx-content h2.heading .codenumber,
-.ptx-content h3.heading .codenumber,
-.ptx-content h1.heading .codenumber {
+/* Section numbers and h2 headings - full gradient */
+.ptx-content h2.heading {
+  font-size: 1.65rem !important;
   background: var(--gradient-cyan-to-blue);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: var(--font-heading) !important;
-}
-
-.ptx-content h2.heading {
-  font-size: 1.65rem !important;
-  color: var(--color-primary);
   margin-bottom: 1.5rem;
   padding-bottom: 0.5rem;
   border-bottom: 2px solid rgba(20, 181, 255, 0.3);
   letter-spacing: 0.5px;
+}
+
+.ptx-content h3.heading {
+  background: var(--gradient-cyan-to-blue);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .ptx-content section.introduction {
@@ -344,6 +344,39 @@ body.pretext {
   margin-right: 0.5rem;
 }
 
+/* Navigation buttons (Prev, Up, Next) */
+.ptx-navbar {
+  background: rgba(0, 0, 0, 0.6) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 0.75rem 1.5rem !important;
+}
+
+.ptx-navbar .button {
+  background: linear-gradient(135deg, rgba(20, 181, 255, 0.15), rgba(121, 82, 245, 0.1)) !important;
+  border: 1px solid rgba(20, 181, 255, 0.3) !important;
+  color: var(--color-text) !important;
+  padding: 0.5rem 1rem !important;
+  border-radius: 8px !important;
+  font-family: var(--font-heading) !important;
+  font-size: 0.9rem !important;
+  transition: all 0.3s ease !important;
+  text-transform: none !important;
+}
+
+.ptx-navbar .button:hover {
+  background: linear-gradient(135deg, rgba(20, 181, 255, 0.25), rgba(121, 82, 245, 0.15)) !important;
+  border-color: rgba(20, 181, 255, 0.5) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(20, 181, 255, 0.2);
+}
+
+.ptx-navbar .button.disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
 /* Footer */
 .ptx-content-footer {
   background: rgba(0, 0, 0, 0.6);
@@ -369,20 +402,28 @@ body.pretext {
   color: var(--color-text);
 }
 
-/* Cross-references */
+/* Cross-references and linked notes */
 .ptx-content .xref {
-  color: #14b5ff !important;
+  color: #7952f5 !important;
   font-family: var(--font-heading);
   font-size: 0.9em;
   padding: 2px 8px;
-  background: rgba(20, 181, 255, 0.15);
+  background: rgba(121, 82, 245, 0.12);
   border-radius: 4px;
   transition: all 0.3s ease;
 }
 
 .ptx-content .xref:hover {
-  background: rgba(20, 181, 255, 0.25);
-  color: #00e8ff !important;
+  background: rgba(121, 82, 245, 0.22);
+  color: #9b7dff !important;
+}
+
+/* Reference labels (Definition, Theorem, etc.) */
+.ptx-content .definition-like .heading .type,
+.ptx-content .theorem-like .heading .type,
+.ptx-content .example-like .heading .type,
+.ptx-content .remark-like .heading .type {
+  color: #7952f5 !important;
 }
 
 /* Term highlighting */
