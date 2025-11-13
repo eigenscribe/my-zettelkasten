@@ -61,16 +61,19 @@ Content: No AI-generated content except layout and styling. Sample prototype not
 
 ## Recent Changes
 
-### PreTeXt Conversion (Nov 11, 2025)
+### PreTeXt Conversion (Nov 13, 2025)
 - **Complete Migration**: Converted entire project from React/Vite to PreTeXt XML format
 - **Content Preservation**: All mathematical notes (topology, metric spaces, continuous functions, sequences) migrated to PreTeXt sections
 - **Citation System**: Implemented proper `<cite>` elements linking to backmatter bibliography (luhmann1984, munkres2000, rudin1976, spivak2008, apostol1974)
 - **Custom Styling**: Preserved original cyan-purple gradient design using CSS injection via `build.sh` script
-- **Glassmorphic Effects**: Maintained dark theme with backdrop blur effects on masthead, sidebar, and content areas
+- **Glassmorphic Effects**: Maintained dark theme with backdrop blur effects on masthead, sidebar, content areas, and footer
 - **Typography Preservation**: Aclonica font for all headings (with gradient effects), Merriweather serif for body text, Fira Code for code blocks
 - **Build Workflow**: Created custom `build.sh` script that builds PreTeXt HTML and injects custom CSS automatically
 - **Development Server**: PreTeXt server running on port 5000 with live preview capability
 - **Project Structure**: Clean XML organization with source files in `/source/`, assets in `/assets/`, output in `/output/web/`
+- **Navigation Styling**: All buttons (top nav and footer) use glassmorphic gradient backgrounds with cyan-to-purple theme and smooth hover animations
+- **Footer Branding**: Custom eigenscribe © 2025 footer with dragon logo and gradient text, centered navigation buttons
+- **Selected Section Styling**: Table of contents uses purple theme for active sections to avoid clashing with gradient text (changed from cyan)
 
 ### Original React Version (Nov 10, 2025)
 

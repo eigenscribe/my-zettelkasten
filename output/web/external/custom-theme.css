@@ -150,12 +150,13 @@ body.pretext {
   transform: translateX(4px);
 }
 
-/* Active/selected section - darker background for better gradient text readability */
+/* Active/selected section - purple theme to avoid clash with gradient text */
 .ptx-toc ul.structural li.active,
 .ptx-toc li.active {
-  background: linear-gradient(135deg, rgba(20, 181, 255, 0.06), rgba(121, 82, 245, 0.04)) !important;
-  border-color: rgba(20, 181, 255, 0.3) !important;
-  box-shadow: 0 0 12px rgba(20, 181, 255, 0.15);
+  background: linear-gradient(135deg, rgba(121, 82, 245, 0.08), rgba(169, 92, 232, 0.05)) !important;
+  border-left: 3px solid rgba(121, 82, 245, 0.6) !important;
+  border-color: rgba(121, 82, 245, 0.3) !important;
+  box-shadow: 0 0 12px rgba(121, 82, 245, 0.15);
 }
 
 .ptx-toc ul.structural li.active a,
@@ -416,6 +417,15 @@ body.pretext {
   position: relative;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* Center the navigation buttons */
+.ptx-content-footer > a {
+  display: inline-flex;
 }
 
 /* Footer navigation buttons styling */
@@ -453,29 +463,55 @@ body.pretext {
   content: '';
   display: block;
   width: 100%;
-  padding: 1.5rem 0 0 0;
-  margin-top: 2rem;
+  padding-top: 2rem;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   background-image: url('logo.png');
-  background-size: 30px 30px;
+  background-size: 35px 35px;
   background-repeat: no-repeat;
-  background-position: center top;
-  padding-top: 45px;
-  filter: drop-shadow(0 0 6px rgba(0, 232, 255, 0.3));
+  background-position: center 1.5rem;
+  padding-top: 60px;
+  filter: drop-shadow(0 0 8px rgba(0, 232, 255, 0.4));
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-align: center;
 }
 
-.ptx-page > .ptx-main::after {
+/* Add the copyright text using a data attribute approach */
+.ptx-content-footer::after {
   content: 'eigenscribe © 2025';
-  display: block;
-  text-align: center;
+  background-image: url('logo.png'), var(--gradient-cyan-to-blue);
+  background-size: 35px 35px, 100%;
+  background-repeat: no-repeat, no-repeat;
+  background-position: center top, center;
+  padding-top: 50px;
+  padding-bottom: 0.5rem;
+  filter: none;
   font-family: var(--font-heading);
-  background: var(--gradient-cyan-to-blue);
+  font-size: 1rem;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 1rem;
-  padding: 1rem 0 2rem 0;
-  margin-top: 1rem;
+  text-align: center;
+  display: block;
+}
+
+/* Logo glow effect separate from text */
+.ptx-content-footer::before {
+  content: '';
+  display: block;
+  width: 35px;
+  height: 35px;
+  background-image: url('logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: drop-shadow(0 0 8px rgba(0, 232, 255, 0.5));
+  margin: 2rem auto 0.5rem auto;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 1.5rem;
 }
 
 /* Bibliography */
