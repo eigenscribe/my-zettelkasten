@@ -916,10 +916,10 @@ button.light-dark-button {
   justify-content: center;
   gap: 6px;
   padding: 8px 14px;
-  background: linear-gradient(135deg, rgba(120, 80, 200, 0.35), rgba(168, 85, 247, 0.4));
-  border: 1px solid rgba(168, 85, 247, 0.5);
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.35), rgba(139, 92, 246, 0.4));
+  border: 1px solid rgba(99, 102, 241, 0.5);
   border-radius: 8px;
-  color: #c084fc;
+  color: #a5b4fc;
   font-family: 'Aclonica', sans-serif;
   font-size: 13px;
   cursor: pointer;
@@ -929,15 +929,14 @@ button.light-dark-button {
 }
 
 #graph-toggle-btn:hover {
-  background: linear-gradient(135deg, rgba(140, 90, 220, 0.5), rgba(180, 100, 255, 0.55));
-  border-color: rgba(180, 100, 255, 0.7);
+  background: linear-gradient(135deg, rgba(79, 150, 255, 0.5), rgba(159, 112, 255, 0.55));
+  border-color: rgba(139, 92, 246, 0.7);
   transform: scale(1.03);
-  color: #e9d5ff;
+  color: #e0e7ff;
 }
 
 #graph-toggle-btn .graph-icon {
   font-size: 16px;
-  color: #a855f7;
 }
 
 #graph-close-btn {

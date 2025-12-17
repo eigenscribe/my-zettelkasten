@@ -36,7 +36,7 @@ function init() {
 
     const toggleBtn = document.createElement('button');
     toggleBtn.id = 'graph-toggle-btn';
-    toggleBtn.innerHTML = '<span class="graph-icon">◉</span><span>Graph</span>';
+    toggleBtn.innerHTML = '<span class="graph-icon">🌳</span><span>Zettle Tree</span>';
     toggleBtn.title = 'Toggle Graph View';
     toggleBtn.addEventListener('click', toggleGraph);
 
