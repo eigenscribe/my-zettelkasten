@@ -236,7 +236,7 @@ function createCanvasGraph(d3, container, data) {
     });
 
     ctx.fillStyle = '#e0e0e0';
-    ctx.font = `${11 / transform.k}px sans-serif`;
+    ctx.font = `${14 / transform.k}px Aclonica, sans-serif`;
     ctx.textAlign = 'center';
     nodes.forEach(node => {
       const radius = getNodeRadius(node);
