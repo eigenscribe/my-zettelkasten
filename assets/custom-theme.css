@@ -671,6 +671,7 @@ nav.ptx-toc .toc-item.active:not(:has(.toc-item)) {
   cursor: pointer;
   transition: all 0.3s ease !important;
   z-index: 10;
+  -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
 }
 
@@ -941,6 +942,7 @@ button.light-dark-button {
   font-family: 'Aclonica', sans-serif;
   font-size: 13px;
   cursor: pointer;
+  -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
   transition: all 0.2s ease;
   margin-left: 8px;
@@ -973,6 +975,7 @@ button.light-dark-button {
   font-family: 'Aclonica', sans-serif;
   font-size: 14px;
   cursor: pointer;
+  -webkit-backdrop-filter: blur(12px);
   backdrop-filter: blur(12px);
   transition: all 0.2s ease;
 }
@@ -998,6 +1001,7 @@ dialog#ptx-search-modal,
 
 dialog#ptx-search-modal::backdrop {
   background: rgba(0, 0, 0, 0.85) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
   backdrop-filter: blur(8px) !important;
 }
 
@@ -1121,6 +1125,7 @@ body .ptx-navbar .searchbox #searchresultsplaceholder,
   transform: translate(-50%, -50%) !important;
   z-index: 10000 !important;
   background: rgba(13, 17, 23, 0.97) !important;
+  -webkit-backdrop-filter: blur(20px) !important;
   backdrop-filter: blur(20px) !important;
   border: 1px solid rgba(20, 181, 255, 0.25) !important;
   border-radius: 16px !important;
