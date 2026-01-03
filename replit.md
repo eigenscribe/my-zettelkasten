@@ -2,12 +2,12 @@
 
 ## Overview
 
-This is my Zettelkasten built with PreTeXt. The project combines networked note-taking (Zettelkasten method) with PreTeXt's powerful mathematical typesetting and web publishing. Content is organized using the Diataxis framework (Prototypes, Tutorials, Explanations, Reference) and features MathJax for beautiful mathematical rendering, proper academic citations via BibTeX, and custom styling that preserves the original cyan-purple gradient design aesthetic.
+This is my Zettelkasten built with PreTeXt.
 
 ## User Preferences
 
-Preferred communication style: Simple, everyday language.
-Content: No AI-generated content except layout and styling. Sample prototype notes include AI warnings.
+~~Preferred communication style: Simple, everyday language.
+Content: No AI-generated content except layout and styling. Sample prototype notes include AI warnings.~~
 
 ## System Architecture
 
