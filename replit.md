@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a Zettelkasten-Diataxis hybrid mathematics journal built with PreTeXt. The project combines networked note-taking (Zettelkasten method) with PreTeXt's powerful mathematical typesetting and web publishing. Content is organized using the Diataxis framework (Prototypes, Tutorials, Explanations, Reference) and features MathJax for beautiful mathematical rendering, proper academic citations via BibTeX, and custom styling that preserves the original cyan-purple gradient design aesthetic.
+This is my Zettelkasten built with PreTeXt. The project combines networked note-taking (Zettelkasten method) with PreTeXt's powerful mathematical typesetting and web publishing. Content is organized using the Diataxis framework (Prototypes, Tutorials, Explanations, Reference) and features MathJax for beautiful mathematical rendering, proper academic citations via BibTeX, and custom styling that preserves the original cyan-purple gradient design aesthetic.
 
 ## User Preferences
 
