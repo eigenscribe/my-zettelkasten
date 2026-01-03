@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Notes Graph Schema",
+  "description": "Schema for the notes graph visualization data format",
+  "type": "object",
+  "required": ["nodes", "links"],
+  "properties": {
+    "nodes": {
+      "type": "array",
+      "description": "Array of note nodes in the graph",
+      "items": {
+        "type": "object",
+        "required": ["id"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Unique identifier for the node (typically matches xml:id in PreTeXt)"
+          },
+          "title": {
+            "type": "string",
+            "description": "Display title for the node"
+          },
+          "url": {
+            "type": "string",
+            "description": "Relative URL to the note's HTML page"
+          },
+          "tags": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Array of tags/categories for the note"
+          },
+          "description": {
+            "type": "string",
+            "description": "Brief description shown in tooltip"
+          },
+          "color": {
+            "type": "string",
+            "description": "Optional custom color for this node (CSS color value)"
+          },
+          "aliases": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Alternative names for this note (from Obsidian frontmatter)"
+          },
+          "created": {
+            "type": "string",
+            "format": "date",
+            "description": "Creation date of the note"
+          },
+          "modified": {
+            "type": "string",
+            "format": "date",
+            "description": "Last modification date"
+          }
+        }
+      }
+    },
+    "links": {
+      "type": "array",
+      "description": "Array of connections between nodes",
+      "items": {
+        "type": "object",
+        "required": ["source", "target"],
+        "properties": {
+          "source": {
+            "type": "string",
+            "description": "ID of the source node"
+          },
+          "target": {
+            "type": "string",
+            "description": "ID of the target node"
+          },
+          "type": {
+            "type": "string",
+            "enum": ["reference", "prerequisite", "builds-on", "related", "backlink"],
+            "description": "Type of relationship between nodes"
+          },
+          "weight": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Visual weight/thickness of the link"
+          },
+          "label": {
+            "type": "string",
+            "description": "Optional label for the link"
+          }
+        }
+      }
+    }
+  }
+}

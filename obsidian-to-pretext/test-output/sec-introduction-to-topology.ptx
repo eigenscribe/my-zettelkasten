@@ -1,0 +1,46 @@
+<!-- tags: topology, foundations, math -->
+<section xml:id="sec-introduction-to-topology">
+<title>Introduction to Topology</title>
+
+<subsection xml:id="subsec-what-is-topology">
+<title>What is Topology?</title>
+<p><term>Topology</term> is the study of properties preserved under <em>continuous deformations</em>. Unlike geometry, topology doesn't care about exact distances or angles.</p>
+<paragraphs xml:id="para-key-concepts">
+<title>Key Concepts</title>
+<p>A <term>topological space</term> is a set <m>X</m> together with a collection <m>\tau</m> of subsets called <em>open sets</em> satisfying:</p>
+<ol>
+<li><p><m>\emptyset, X \in \tau</m></p></li>
+<li><p>Arbitrary unions of open sets are open</p></li>
+<li><p>Finite intersections of open sets are open</p></li>
+</ol>
+<me>\tau \subseteq \mathcal{P}(X)</me>
+</paragraphs>
+<paragraphs xml:id="para-related-topics">
+<title>Related Topics</title>
+<ul>
+<li><p><xref ref="sec-metric-spaces"/> provide a concrete way to define topology</p></li>
+<li><p><em>Continuous Functions</em> preserve topological structure</p></li>
+<li><p><em>Convergence of Sequences</em> behaves differently in general spaces</p></li>
+</ul>
+<note>
+<title>Historical Note</title>
+<p>Topology emerged from analysis in the early 20th century, particularly from the work of Hausdorff and others.</p>
+</note>
+</paragraphs>
+<paragraphs xml:id="para-basic-examples">
+<title>Basic Examples</title>
+<ol>
+<li><p><term>Discrete topology</term>: Every subset is open</p></li>
+<li><p><term>Indiscrete topology</term>: Only <m>\emptyset</m> and <m>X</m> are open</p></li>
+<li><p><term>Metric topology</term>: Open balls generate the topology</p></li>
+</ol>
+</paragraphs>
+</subsection>
+
+<paragraphs>
+<title>Backlinks</title>
+<p>
+This note is referenced by: <xref ref="sec-metric-spaces"/>
+</p>
+</paragraphs>
+</section>

@@ -1,0 +1,46 @@
+{
+  "nodes": [
+    {
+      "id": "sec-introduction-to-topology",
+      "title": "Introduction to Topology",
+      "url": "sec-introduction-to-topology.html",
+      "tags": [
+        "topology",
+        "foundations",
+        "math"
+      ],
+      "aliases": [
+        "topology intro",
+        "basic topology"
+      ],
+      "description": "# What is Topology?\n\n**Topology** is the study of properties preserved under *continuous deformation..."
+    },
+    {
+      "id": "sec-metric-spaces",
+      "title": "Metric Spaces",
+      "url": "sec-metric-spaces.html",
+      "tags": [
+        "topology",
+        "analysis",
+        "metric-spaces"
+      ],
+      "aliases": [
+        "metric space",
+        "distance spaces"
+      ],
+      "description": "# Definition\n\nA **metric space** is a pair $(X, d)$ where $X$ is a set and $d: X \\times X \\to \\mathb..."
+    }
+  ],
+  "links": [
+    {
+      "source": "sec-introduction-to-topology",
+      "target": "sec-metric-spaces",
+      "type": "reference"
+    },
+    {
+      "source": "sec-metric-spaces",
+      "target": "sec-introduction-to-topology",
+      "type": "backlink"
+    }
+  ]
+}

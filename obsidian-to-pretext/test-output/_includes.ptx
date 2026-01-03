@@ -1,0 +1,5 @@
+<!-- Auto-generated includes for converted notes -->
+<!-- Copy these into your chapter file -->
+
+<xi:include href="sec-introduction-to-topology.ptx"/>
+<xi:include href="sec-metric-spaces.ptx"/>
