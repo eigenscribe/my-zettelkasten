@@ -8,10 +8,21 @@
     </p>
   </introduction>
 
-  <section xml:id="sec-common-definitions">
-    <title>Common Definitions</title>
+  <section xml:id="sec-your-reference">
+    <title>Your Reference Section</title>
     <p>
-      This section contains frequently referenced definitions and theorems.
+      Add quick reference definitions, theorems, and formulas here for easy lookup.
     </p>
+    
+    <!-- Example structure:
+    <definition xml:id="def-your-concept">
+      <title>Your Concept</title>
+      <statement>
+        <p>
+          Define your concept here.
+        </p>
+      </statement>
+    </definition>
+    -->
   </section>
 </chapter>

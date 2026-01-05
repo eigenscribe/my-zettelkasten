@@ -4,7 +4,7 @@
   <bibinfo>
   
     <author>
-      <personname>Your Name</personname>
+      <personname>Eigenscribe</personname>
     </author>
     <date>
       <today />
@@ -15,10 +15,10 @@
     </website>
 
     <copyright>
-      <year>2024<ndash />2025</year>
-      <holder>Your Name</holder>
+      <year>2025<ndash />2026</year>
+      <holder>Eigenscribe</holder>
       <shortlicense> 
-        This work is your personal mathematical knowledge base using the Zettelkasten method.
+        This work is a personal mathematical knowledge base using the Zettelkasten method.
       </shortlicense>
     </copyright>
   

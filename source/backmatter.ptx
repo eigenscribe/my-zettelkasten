@@ -11,25 +11,12 @@
   <references xml:id="references">
     <title>Bibliography</title>
     
-    <biblio type="raw" xml:id="luhmann1984">
-      Luhmann, Niklas. <title>Kommunikation mit Zettelkästen</title>. Universität Bielefeld, 1984.
+    <!-- Add your references here using this format:
+    <biblio type="raw" xml:id="author-year">
+      Author Name. <title>Book Title</title>. Publisher, Year.
     </biblio>
+    -->
     
-    <biblio type="raw" xml:id="munkres2000">
-      Munkres, James R. <title>Topology</title>. 2nd edition, Prentice Hall, 2000. ISBN: 978-0131816299.
-    </biblio>
-    
-    <biblio type="raw" xml:id="rudin1976">
-      Rudin, Walter. <title>Principles of Mathematical Analysis</title>. 3rd edition, McGraw-Hill, 1976. International Series in Pure and Applied Mathematics. ISBN: 978-0070542358.
-    </biblio>
-    
-    <biblio type="raw" xml:id="spivak2008">
-      Spivak, Michael. <title>Calculus</title>. 4th edition, Publish or Perish, 2008. ISBN: 978-0914098911.
-    </biblio>
-    
-    <biblio type="raw" xml:id="apostol1974">
-      Apostol, Tom M. <title>Mathematical Analysis</title>. 2nd edition, Addison-Wesley, 1974. ISBN: 978-0201002881.
-    </biblio>
   </references>
 
   <colophon>
