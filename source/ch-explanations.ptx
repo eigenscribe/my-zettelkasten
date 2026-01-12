@@ -15,4 +15,6 @@
       Add new sections to document your insights and conceptual breakthroughs.
     </p>
   </section>
+
+  <xi:include href="sec-first-zettel.ptx" />
 </chapter>
