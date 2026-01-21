@@ -202,7 +202,7 @@ body.pretext {
 /* TOC Chapter headers (Prototypes, Tutorials, etc.) */
 .ptx-toc ul.structural > li > .codenumber,
 .ptx-toc ul.structural > li > .title {
-  background: var(--gradient-cyan-to-blue);
+  background: var(--gradient-light-to-dark-blue);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
