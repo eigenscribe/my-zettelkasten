@@ -13,26 +13,27 @@ permissions:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-      
+
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
-      
+
       - name: Install PreTeXt CLI
         run: pip install pretext
-      
+
       - name: Build with custom styling
         run: chmod +x build.sh && ./build.sh
-      
-      - name: Upload to GitHub Pages
+
+      - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'output/web'
-      
+          path: output/web
+
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
