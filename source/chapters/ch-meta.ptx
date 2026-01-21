@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-meta" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Meta</title>
+  <introduction>
+    <p>
+      Workflow reflections, tweaks, and productivity logs. 
+      This is the meta-level thinking about your process, system refinements, 
+      and observations about how you work best.
+    </p>
+  </introduction>
+
+  <section xml:id="sec-meta-intro">
+    <title>Process, Reflections, and System Notes</title>
+    <p>
+      Add your meta-level notes here. Document workflow improvements, 
+      productivity observations, system tweaks, and reflections on your learning process. 
+      This chapter captures the thinking about thinking.
+    </p>
+  </section>
+</chapter>

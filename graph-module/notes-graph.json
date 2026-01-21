@@ -1,72 +1,97 @@
 {
   "$schema": "notes-graph-schema.json",
+  "metadata": {
+    "title": "Eigenscribe Zettelkasten",
+    "description": "Interactive visualization of note connections",
+    "generated": "2026-01-20T22:46:29.848273",
+    "total_notes": 6,
+    "total_links": 7
+  },
   "nodes": [
     {
-      "id": "sec-topology-intro",
-      "title": "Introduction to Topology",
-      "url": "sec-topology-intro.html",
-      "tags": ["topology", "foundations"],
-      "description": "Basic concepts and definitions in topology"
+      "id": "sec-geometric-algebra",
+      "title": "Geometric Algebra",
+      "url": "sec-geometric-algebra.html",
+      "tags": [],
+      "description": "Geometric algebra structures and applications. A foundational algebraic system \n      for representing geometric ideas computationally and conceptually.",
+      "file": "sections/sec-geometric-algebra.ptx"
     },
     {
-      "id": "sec-metric-spaces",
-      "title": "Metric Spaces",
-      "url": "sec-metric-spaces.html",
-      "tags": ["topology", "metric-spaces", "analysis"],
-      "description": "Properties of metric spaces and distance functions"
+      "id": "sec-neuroscience",
+      "title": "Neuroscience",
+      "url": "sec-neuroscience.html",
+      "tags": [],
+      "description": "Neuroscience applications and biological systems. Exploring neural structures,\n      computation, and their relationship to geometric and structural methods.",
+      "file": "sections/sec-neuroscience.ptx"
     },
     {
-      "id": "sec-continuous-functions",
-      "title": "Continuous Functions",
-      "url": "sec-continuous-functions.html",
-      "tags": ["topology", "continuity", "functions"],
-      "description": "Continuity in topological and metric contexts"
+      "id": "sec-physics",
+      "title": "Physics",
+      "url": "sec-physics.html",
+      "tags": [],
+      "description": "Physics and mechanics from geometric and structural perspectives. \n      Exploring classical mechanics, field theory, and fundamental physical principles.",
+      "file": "sections/sec-physics.ptx"
     },
     {
-      "id": "sec-convergence-sequences",
-      "title": "Convergence of Sequences",
-      "url": "sec-convergence-sequences.html",
-      "tags": ["analysis", "sequences", "convergence"],
-      "description": "Sequence convergence in metric and topological spaces"
+      "id": "sec-quantum-computing",
+      "title": "Quantum Computing",
+      "url": "sec-quantum-computing.html",
+      "tags": [],
+      "description": "Quantum computing from a beginner's perspective.",
+      "file": "sections/sec-quantum-computing.ptx"
     },
     {
-      "id": "sec-common-definitions",
-      "title": "Common Definitions",
-      "url": "sec-common-definitions.html",
-      "tags": ["reference", "definitions"],
-      "description": "Reference list of common mathematical definitions"
+      "id": "sec-scribing-intro",
+      "title": "Core Notes and Thinking",
+      "url": "sec-scribing-intro.html",
+      "tags": [],
+      "description": "",
+      "file": "sections/sec-scribing-intro.ptx"
+    },
+    {
+      "id": "sec-section-name",
+      "title": "Section Title",
+      "url": "sec-section-name.html",
+      "tags": [],
+      "description": "",
+      "file": "sections/sec-section-name.ptx"
     }
   ],
   "links": [
     {
-      "source": "sec-topology-intro",
-      "target": "sec-metric-spaces",
-      "type": "builds-on"
+      "source": "sec-geometric-algebra",
+      "target": "sec-quantum-computing",
+      "type": "references"
     },
     {
-      "source": "sec-metric-spaces",
-      "target": "sec-continuous-functions",
-      "type": "prerequisite"
+      "source": "sec-geometric-algebra",
+      "target": "sec-physics",
+      "type": "references"
     },
     {
-      "source": "sec-metric-spaces",
-      "target": "sec-convergence-sequences",
-      "type": "prerequisite"
+      "source": "sec-geometric-algebra",
+      "target": "sec-neuroscience",
+      "type": "references"
     },
     {
-      "source": "sec-continuous-functions",
-      "target": "sec-convergence-sequences",
-      "type": "related"
+      "source": "sec-neuroscience",
+      "target": "sec-quantum-computing",
+      "type": "references"
     },
     {
-      "source": "sec-common-definitions",
-      "target": "sec-topology-intro",
-      "type": "reference"
+      "source": "sec-neuroscience",
+      "target": "sec-geometric-algebra",
+      "type": "references"
     },
     {
-      "source": "sec-common-definitions",
-      "target": "sec-metric-spaces",
-      "type": "reference"
+      "source": "sec-physics",
+      "target": "sec-geometric-algebra",
+      "type": "references"
+    },
+    {
+      "source": "sec-physics",
+      "target": "sec-quantum-computing",
+      "type": "references"
     }
   ]
 }

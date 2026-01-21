@@ -77,7 +77,7 @@ window.MathJax = {
 </script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:type" content="book">
-<meta property="book:title" content="Math Journal">
+<meta property="book:title" content="Eigenscribe Notes">
 <meta property="book:author" content="Eigenscribe">
 <script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
 <!--** Runestone components to run locally in reader's browser **-->
@@ -101,15 +101,15 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.11.8';
+eBookConfig.runestone_version = '7.11.10';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.991c135ccf182bf5.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.1c010553c35c544c.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.677a75a9120449ff.css">
+<script src="_static/prefix-runtime.3dca4b99808f4053.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.80892ed1280c2803.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.6ec5960970d8b364.css">
 <script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 <link rel="stylesheet" type="text/css" href="external/custom-theme.css">
@@ -119,7 +119,7 @@ eBookConfig.enable_chatcodes =  false;
 </head>
 <body id="math-journal-zettelkasten" class="pretext book ignore-math">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
-<h1 class="heading"><a href="math-journal.html"><span class="title">Math Journal</span> <span class="subtitle">A Zettelkasten Approach</span></a></h1>
+<h1 class="heading"><a href="eigenscribe-notes.html"><span class="title">Eigenscribe Notes</span> <span class="subtitle">A Zettelkasten for Geometric Methods</span></a></h1>
 <p class="byline">Eigenscribe</p>
 </div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
 <button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="backmatter-2.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="searchbox">
@@ -152,55 +152,26 @@ eBookConfig.enable_chatcodes =  false;
 <ul class="structural toc-item-list"><li class="toc-item toc-abstract"><div class="toc-title-box"><a href="frontmatter.html#frontmatter-3" class="internal"><span class="title">Abstract</span></a></div></li></ul>
 </li>
 <li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-prototypes.html" class="internal"><span class="codenumber">1</span> <span class="title">Prototypes</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-example-prototype.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Your First Prototype Note</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-example-prototype.html#subsec-your-subsection" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Your Subsection Title</span></a></div></li></ul>
-</li></ul>
-</li>
-<li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-tutorials.html" class="internal"><span class="codenumber">2</span> <span class="title">Tutorials</span></a></div>
+<div class="toc-title-box"><a href="ch-scribing.html" class="internal"><span class="codenumber">1</span> <span class="title">Scribing</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-local-setup.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Getting Started</span></a></div>
-<ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-local-setup.html#subsec-prerequisites" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Prerequisites</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-local-setup.html#subsec-building-project" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Building Your Project</span></a></div></li>
-</ul>
-</li>
-<li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-github-deployment.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Deploying to GitHub Pages</span></a></div>
-<ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-github-deployment.html#subsec-create-github-repo" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Step 1: Create a GitHub Repository</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-github-deployment.html#subsec-connect-repo" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Step 2: Connect Your Project to GitHub</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-github-deployment.html#subsec-deploy-to-pages" class="internal"><span class="codenumber">2.2.3</span> <span class="title">Step 3: Deploy to GitHub Pages</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-github-deployment.html#subsec-updating-site" class="internal"><span class="codenumber">2.2.4</span> <span class="title">Step 4: Updating Your Live Site</span></a></div></li>
-</ul>
-</li>
-<li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-adding-content.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Adding Content Easily</span></a></div>
-<ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-adding-content.html#subsec-file-structure" class="internal"><span class="codenumber">2.3.1</span> <span class="title">Understanding the File Structure</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-adding-content.html#subsec-adding-new-note" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Adding a New Note</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-adding-content.html#subsec-mathematical-content" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Writing Mathematical Content</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-adding-content.html#subsec-linking-notes" class="internal"><span class="codenumber">2.3.4</span> <span class="title">Linking Notes (Zettelkasten Method)</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-adding-content.html#subsec-citations" class="internal"><span class="codenumber">2.3.5</span> <span class="title">Adding Citations</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-adding-content.html#subsec-workflow-tips" class="internal"><span class="codenumber">2.3.6</span> <span class="title">Recommended Workflow</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-adding-content.html#subsec-quick-reference" class="internal"><span class="codenumber">2.3.7</span> <span class="title">Quick Reference</span></a></div></li>
-</ul>
-</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-scribing-intro.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Core Notes and Thinking</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-geometric-algebra.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Geometric Algebra</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-quantum-computing.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Quantum Computing</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-neuroscience.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Neuroscience</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-physics.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Physics</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-explanations.html" class="internal"><span class="codenumber">3</span> <span class="title">Explanations</span></a></div>
-<ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-placeholder-explanations.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Add Your Explanations Here</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-first-zettel.html" class="internal"><span class="codenumber">3.2</span> <span class="title">My First Zettel: The Beauty of Zettelkasten</span></a></div></li>
-</ul>
+<div class="toc-title-box"><a href="ch-eigenthoughts.html" class="internal"><span class="codenumber">2</span> <span class="title">Eigenthoughts</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-eigenthoughts-intro.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Original Ideas and Insights</span></a></div></li></ul>
 </li>
 <li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-reference.html" class="internal"><span class="codenumber">4</span> <span class="title">Reference</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-your-reference.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Your Reference Section</span></a></div></li></ul>
+<div class="toc-title-box"><a href="ch-literature.html" class="internal"><span class="codenumber">3</span> <span class="title">Literature</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-literature-intro.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Source Summaries</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-meta.html" class="internal"><span class="codenumber">4</span> <span class="title">Meta</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-meta-intro.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Process, Reflections, and System Notes</span></a></div></li></ul>
 </li>
 <li class="toc-item toc-backmatter contains-active" style="background: linear-gradient(135deg, rgba(20, 181, 255, 0.22), rgba(121, 82, 245, 0.16)) !important; border-radius: 16px !important;">
 <div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>

@@ -202,7 +202,7 @@ body.pretext {
 /* TOC Chapter headers (Prototypes, Tutorials, etc.) */
 .ptx-toc ul.structural > li > .codenumber,
 .ptx-toc ul.structural > li > .title {
-  background: var(--gradient-cyan-to-blue);
+  background: var(--gradient-light-to-dark-blue);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1303,6 +1303,20 @@ body .ptx-navbar .searchbox #searchresultsplaceholder.search-active,
     white-space: pre-wrap;
     word-break: break-word;
   }
+}
+
+/* Abstract styling */
+.abstract {
+  background-color: rgba(20, 181, 255, 0.1) !important;
+  border-left: 4px solid #00e8ff !important;
+  border-radius: 4px;
+  padding: 1.5rem !important;
+  margin: 1.5rem 0 !important;
+  color: var(--color-text) !important;
+}
+
+.abstract p {
+  margin: 0.5rem 0 !important;
 }
 
 @media (max-width: 600px) {

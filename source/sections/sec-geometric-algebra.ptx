@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-geometric-algebra" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Geometric Algebra</title>
+  <introduction>
+    <p>
+      Geometric algebra structures and applications. A foundational algebraic system 
+      for representing geometric ideas computationally and conceptually.
+    </p>
+  </introduction>
+  <p>
+    Add your geometric algebra examples, worked problems, and concrete systems here.
+    See also: <xref ref="sec-quantum-computing"/>, <xref ref="sec-physics"/>, <xref ref="sec-neuroscience"/>.
+  </p>
+</section>

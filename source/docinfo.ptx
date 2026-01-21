@@ -25,4 +25,17 @@
 
   <!-- Cross-reference format -->
   <cross-references text="type-global" />
+
+  <!-- Tagging System for Note Organization -->
+  <!-- Suggested tags: #permanent #reference #draft #important #linked #rework #external #question #definition #theorem #example -->
+  <!-- Example note metadata format:
+       Note ID: 20250120-001
+       Tags: #geometric-algebra #quantum #physics #important
+       Links: Related to [[note-id-2]], [[note-id-3]]
+  -->
+
+  <!-- Bibliography/BibTeX Support -->
+  <!-- Place your bibliography file in ./publication/references.bib -->
+  <!-- In PreTeXt, cite using: <cite>[author-key]</cite> -->
+  <!-- Or with text: <cite><foreign>ibid.</foreign></cite> -->
 </docinfo>

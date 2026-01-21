@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-literature" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Literature</title>
+  <introduction>
+    <p>
+      One to two paragraph summaries of papers, talks, books, and other sources. 
+      These captured ideas are the seeds for your own thinking and connections.
+    </p>
+  </introduction>
+
+  <section xml:id="sec-literature-intro">
+    <title>Source Summaries</title>
+    <p>
+      Add your literature notes here. Briefly summarize key ideas, arguments, and insights 
+      from papers, books, talks, and other sources. Each note is a stepping stone toward 
+      your own thinking and integration.
+    </p>
+  </section>
+</chapter>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-eigenthoughts" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Eigenthoughts</title>
+  <introduction>
+    <p>
+      Atomic ideas you own or are actively shaping. These are original insights, 
+      personal interpretations, and novel connections emerging from your work.
+    </p>
+  </introduction>
+
+  <section xml:id="sec-eigenthoughts-intro">
+    <title>Original Ideas and Insights</title>
+    <p>
+      Add your atomic ideas here. These are thoughts that are distinctly yours, 
+      ideas you're developing or challenging, novel connections you've made. 
+      Keep them focused, atomic, and linked to the broader network.
+    </p>
+  </section>
+</chapter>

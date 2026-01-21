@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-scribing" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Scribing</title>
+  <introduction>
+    <p>
+      Permanent notes: core thinking, developed ideas, and integrated knowledge. 
+      These are the main notes in your Zettelkasten, synthesizing insights and connecting concepts.
+    </p>
+  </introduction>
+
+  <xi:include href="../sections/sec-scribing-intro.ptx" />
+  <xi:include href="../sections/sec-geometric-algebra.ptx" />
+  <xi:include href="../sections/sec-quantum-computing.ptx" />
+  <xi:include href="../sections/sec-neuroscience.ptx" />
+  <xi:include href="../sections/sec-physics.ptx" />
+</chapter>

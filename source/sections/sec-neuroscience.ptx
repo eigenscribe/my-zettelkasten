@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-neuroscience" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Neuroscience</title>
+  <introduction>
+    <p>
+      Neuroscience applications and biological systems. Exploring neural structures,
+      computation, and their relationship to geometric and structural methods.
+    </p>
+  </introduction>
+  <p>
+    Add your neuroscience notes, brain models, and neural computation examples here.
+    Link to related concepts in <xref ref="sec-quantum-computing"/> and <xref ref="sec-geometric-algebra"/>.
+  </p>
+</section>
