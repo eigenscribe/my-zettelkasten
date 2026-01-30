@@ -9,9 +9,9 @@
     </p>
   </introduction>
 
-  <xi:include href="../sections/sec-scribing-intro.ptx" />
-  <xi:include href="../sections/sec-geometric-algebra.ptx" />
-  <xi:include href="../sections/sec-quantum-computing.ptx" />
-  <xi:include href="../sections/sec-neuroscience.ptx" />
-  <xi:include href="../sections/sec-physics.ptx" />
+  <xi:include href="../sections/scribing/sec-scribing-intro.ptx" />
+  <xi:include href="../sections/scribing/sec-geometric-algebra.ptx" />
+  <xi:include href="../sections/scribing/sec-quantum-computing.ptx" />
+  <xi:include href="../sections/scribing/sec-neuroscience.ptx" />
+  <xi:include href="../sections/scribing/sec-physics.ptx" />
 </chapter>

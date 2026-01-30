@@ -46,22 +46,22 @@ var ptx_lunr_docs = [
   "body": " Physics   Physics and mechanics from geometric and structural perspectives. Exploring classical mechanics, field theory, and fundamental physical principles.   Add your physics notes, mechanical systems, and field theory here. Link to related concepts in and .  "
 },
 {
-  "id": "sec-eigenthoughts-intro",
-  "level": "1",
-  "url": "sec-eigenthoughts-intro.html",
-  "type": "Section",
-  "number": "2.1",
-  "title": "Original Ideas and Insights",
-  "body": " Original Ideas and Insights  Add your atomic ideas here. These are thoughts that are distinctly yours, ideas you're developing or challenging, novel connections you've made. Keep them focused, atomic, and linked to the broader network.  "
-},
-{
   "id": "sec-literature-intro",
   "level": "1",
   "url": "sec-literature-intro.html",
   "type": "Section",
-  "number": "3.1",
+  "number": "2.1",
   "title": "Source Summaries",
   "body": " Source Summaries  Add your literature notes here. Briefly summarize key ideas, arguments, and insights from papers, books, talks, and other sources. Each note is a stepping stone toward your own thinking and integration.  "
+},
+{
+  "id": "sec-eigenthoughts-intro",
+  "level": "1",
+  "url": "sec-eigenthoughts-intro.html",
+  "type": "Section",
+  "number": "3.1",
+  "title": "Original Ideas and Insights",
+  "body": " Original Ideas and Insights  Add your atomic ideas here. These are thoughts that are distinctly yours, ideas you're developing or challenging, novel connections you've made. Keep them focused, atomic, and linked to the broader network.  "
 },
 {
   "id": "sec-meta-intro",

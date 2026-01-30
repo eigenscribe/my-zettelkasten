@@ -13,14 +13,12 @@
     <!-- Permanent notes - the core thinking -->
     <xi:include href="./chapters/ch-scribing.ptx"/>
 
+    <!-- Literature summaries and references -->
+    <xi:include href="./chapters/ch-literature.ptx"/>
     
     <!-- Atomic ideas and original thinking -->
     <xi:include href="./chapters/ch-eigenthoughts.ptx"/>
     
-    <!-- Literature summaries and references -->
-    <xi:include href="./chapters/ch-literature.ptx"/>
-
-
     <!-- Workflow and meta-level thinking -->
     <xi:include href="./chapters/ch-meta.ptx"/>
 
