@@ -5,8 +5,8 @@
   <xi:include href="./docinfo.ptx"/>
 
   <book xml:id="eigenscribe-notes">
-    <title>Eigenscribe Notes</title>
-    <subtitle>A Zettelkasten for Geometric Methods</subtitle>
+    <title>There and Back Again</title>
+    <subtitle>A Zettelkasten for Scriber Labs</subtitle>
 
     <xi:include href="./frontmatter.ptx"/> 
     
@@ -28,4 +28,3 @@
   </book>
 
 </pretext>
-
